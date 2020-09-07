@@ -10,15 +10,10 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-            bat 'mvn -B -U -e -V clean -DskipTests package'
+            bat 'mvn -B -U -e -V clean  package'
       }
     }
 
-    stage('Test') {
-      steps {
-          bat "mvn clean test"
-      }
-    }
 
      stage('Dev Deployment') {
       environment {
