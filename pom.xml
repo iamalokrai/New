@@ -44,6 +44,9 @@
 						<workerType>${cloudhub.worker}</workerType>
 						<authToken>${cloudhub.token}</authToken>
 						<objectStoreV2>true</objectStoreV2>
+						<properties>
+							<env>${env}</env>
+						</properties>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
