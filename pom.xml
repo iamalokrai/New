@@ -123,6 +123,7 @@
             <url>https://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
         </repository>
+	</repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>mulesoft-releases</id>
