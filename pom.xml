@@ -14,7 +14,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.3.0</app.runtime>
-		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.4.0</mule.maven.plugin.version>
 	<munit.version>2.2.5</munit.version>
     </properties>
 
@@ -123,7 +123,12 @@
             <url>https://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
         </repository>
-	</repositories>
+        <repository>
+            <id>mule-ee-releases</id>
+            <name>MuleEE Releases Repository</name>
+            <url>https://repository-master.mulesoft.org/nexus/content/repositories/releases-ee/</url>
+        </repository>
+    </repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>mulesoft-releases</id>
@@ -135,4 +140,5 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+
 </project>
