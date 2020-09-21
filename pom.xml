@@ -123,12 +123,6 @@
             <url>https://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
         </repository>
-        <repository>
-            <id>mule-ee-releases</id>
-            <name>MuleEE Releases Repository</name>
-            <url>https://repository-master.mulesoft.org/nexus/content/repositories/releases-ee/</url>
-        </repository>
-    </repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>mulesoft-releases</id>
