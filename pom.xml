@@ -15,7 +15,7 @@
 
 		<app.runtime>4.2.1</app.runtime>
 		<mule.maven.plugin.version>3.4.0</mule.maven.plugin.version>
-	<munit.version>2.2.1</munit.version>
+	<munit.version>2.2.5</munit.version>
     </properties>
 
 	<build>
@@ -128,6 +128,10 @@
             <name>MuleEE Releases Repository</name>
             <url>https://repository-master.mulesoft.org/nexus/content/repositories/releases-ee/</url>
         </repository>
+	<repository>
+ 				<id>jitpack.io</id>
+ 				<url>https://jitpack.io</url>
+	 </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
