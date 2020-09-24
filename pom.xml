@@ -65,6 +65,11 @@
                     </execution>
                 </executions>
                 <configuration>
+			<dynamicPorts>
+						<dynamicPort>http.listener.port</dynamicPort>
+					</dynamicPorts>
+					<runtimeProduct>MULE_EE</runtimeProduct>
+					<runtimeVersion>${app.runtime}</runtimeVersion>
                     <coverage>
                         <runCoverage>true</runCoverage>
                         <formats>
